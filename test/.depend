@@ -1,0 +1,27 @@
+gridworld.o: gridworld.cc ../engine/common.h
+gridworld2.o: gridworld2.cc ../engine/common.h
+nn_xor.o: nn_xor.cc ../engine/neural.h ../engine/common.h \
+ ../engine/thread.h ../ui/nn.h ../ui/ui.h /usr/local/include/GL/glfw.h
+nn_xor_ensemble.o: nn_xor_ensemble.cc ../engine/neural.h \
+ ../engine/common.h ../engine/thread.h ../ui/nn.h ../ui/ui.h \
+ /usr/local/include/GL/glfw.h
+test_board.o: test_board.cc ../engine/board.h ../engine/common.h
+test_coord.o: test_coord.cc ../engine/board.h ../engine/common.h
+test_ga.o: test_ga.cc ../engine/symbolic.h ../engine/common.h \
+ ../engine/genetic.h ../engine/thread.h ../engine/../ui/plot.h \
+ ../engine/../ui/ui.h /usr/local/include/GL/glfw.h ../ui/plot.h
+test_gboard.o: test_gboard.cc ../ui/board.h ../ui/ui.h \
+ ../ui/../engine/common.h /usr/local/include/GL/glfw.h
+test_nn.o: test_nn.cc ../engine/neural.h ../engine/common.h \
+ ../engine/thread.h ../ui/nn.h ../ui/ui.h /usr/local/include/GL/glfw.h
+test_rbm.o: test_rbm.cc ../engine/rbm.h ../engine/common.h ../ui/nn.h \
+ ../ui/ui.h /usr/local/include/GL/glfw.h
+test_rbm2.o: test_rbm2.cc ../engine/rbm.h ../engine/common.h \
+ ../engine/neural.h ../engine/thread.h ../ui/nn.h ../ui/ui.h \
+ /usr/local/include/GL/glfw.h ttt.h
+test_rnn.o: test_rnn.cc ../engine/rnn.h ../engine/neural.h \
+ ../engine/common.h ../engine/thread.h ../engine/genetic.h \
+ ../engine/../ui/plot.h ../engine/../ui/ui.h /usr/local/include/GL/glfw.h \
+ ../ui/nn.h ../ui/ui.h
+test_ui.o: test_ui.cc ../ui/ui.h ../ui/../engine/common.h \
+ /usr/local/include/GL/glfw.h

@@ -1,0 +1,75 @@
+breakthrough.o: breakthrough.cc breakthrough.h ../engine/common.h \
+  ../engine/game.h ../engine/contest.h ../engine/uct.h ../engine/thread.h \
+  ../engine/memory.h ../engine/random.h ../engine/montecarlo.h \
+  ../engine/sort.h ../engine/minimax.h ../engine/minimax/strategy.h \
+  ../engine/thread.h ../engine/minimax/minimax.h \
+  ../engine/minimax/negamax.h ../engine/minimax/negascout.h \
+  ../engine/sort.h ../engine/human.h
+congo.o: congo.cc ../engine/contest.h ../engine/common.h ../engine/uct.h \
+  ../engine/thread.h ../engine/memory.h ../engine/game.h \
+  ../engine/random.h ../engine/minimax.h ../engine/minimax/strategy.h \
+  ../engine/thread.h ../engine/minimax/minimax.h \
+  ../engine/minimax/negamax.h ../engine/minimax/negascout.h \
+  ../engine/sort.h congo.h ../engine/bitboard.h
+congo2.o: congo2.cc ../engine/contest.h ../engine/common.h \
+  ../engine/uct.h ../engine/thread.h ../engine/memory.h ../engine/game.h \
+  ../engine/random.h ../engine/minimax.h ../engine/minimax/strategy.h \
+  ../engine/thread.h ../engine/minimax/minimax.h \
+  ../engine/minimax/negamax.h ../engine/minimax/negascout.h \
+  ../engine/sort.h congo2.h ../engine/bitboard.h
+connect4.o: connect4.cc ../engine/contest.h ../engine/common.h \
+  ../engine/uct.h ../engine/thread.h ../engine/memory.h ../engine/game.h \
+  ../engine/human.h ../engine/random.h ../engine/montecarlo.h \
+  ../engine/sort.h ../engine/td.h ../engine/neural.h ../engine/../ui/nn.h \
+  ../engine/../ui/ui.h ../engine/minimax.h ../engine/minimax/strategy.h \
+  ../engine/thread.h ../engine/minimax/minimax.h \
+  ../engine/minimax/negamax.h ../engine/minimax/negascout.h \
+  ../engine/sort.h connect4.h ../engine/board.h
+connect6.o: connect6.cc ../engine/contest.h ../engine/common.h \
+  ../engine/uct.h ../engine/thread.h ../engine/memory.h ../engine/game.h \
+  ../engine/random.h ../engine/minimax.h ../engine/minimax/strategy.h \
+  ../engine/thread.h ../engine/minimax/minimax.h \
+  ../engine/minimax/negamax.h ../engine/minimax/negascout.h \
+  ../engine/sort.h ../engine/montecarlo.h ../engine/sort.h ../engine/td.h \
+  ../engine/neural.h ../engine/../ui/nn.h ../engine/../ui/ui.h connect6.h \
+  ../engine/board.h ../engine/state.h ../ui/board.h ../ui/ui.h
+druid.o: druid.cc ../engine/contest.h ../engine/common.h ../engine/uct.h \
+  ../engine/thread.h ../engine/memory.h ../engine/game.h druid.h \
+  ../engine/search.h ../engine/board.h ../engine/board.h \
+  ../engine/random.h ../engine/minimax.h ../engine/minimax/strategy.h \
+  ../engine/thread.h ../engine/minimax/minimax.h \
+  ../engine/minimax/negamax.h ../engine/minimax/negascout.h \
+  ../engine/sort.h ../engine/human.h ../engine/montecarlo.h \
+  ../engine/sort.h
+druidhex.o: druidhex.cc ../engine/contest.h ../engine/common.h \
+  ../engine/uct.h ../engine/thread.h ../engine/memory.h ../engine/game.h \
+  druidhex.h ../engine/search.h ../engine/board.h ../engine/board.h \
+  ../engine/random.h ../engine/minimax.h ../engine/minimax/strategy.h \
+  ../engine/thread.h ../engine/minimax/minimax.h \
+  ../engine/minimax/negamax.h ../engine/minimax/negascout.h \
+  ../engine/sort.h
+tanbo.o: tanbo.cc ../engine/contest.h ../engine/common.h ../engine/uct.h \
+  ../engine/thread.h ../engine/memory.h ../engine/game.h \
+  ../engine/random.h ../engine/minimax.h ../engine/minimax/strategy.h \
+  ../engine/thread.h ../engine/minimax/minimax.h \
+  ../engine/minimax/negamax.h ../engine/minimax/negascout.h \
+  ../engine/sort.h ../engine/montecarlo.h ../engine/sort.h ../engine/td.h \
+  ../engine/neural.h ../engine/../ui/nn.h ../engine/../ui/ui.h tanbo.h \
+  ../engine/board.h ../engine/state.h ../ui/board.h ../ui/ui.h
+tetris.o: tetris.cc tetris.h ../engine/common.h
+ttt.o: ttt.cc ../engine/contest.h ../engine/common.h ../engine/uct.h \
+  ../engine/thread.h ../engine/memory.h ../engine/game.h \
+  ../engine/random.h ../engine/montecarlo.h ../engine/sort.h \
+  ../engine/minimax.h ../engine/minimax/strategy.h ../engine/thread.h \
+  ../engine/minimax/minimax.h ../engine/minimax/negamax.h \
+  ../engine/minimax/negascout.h ../engine/sort.h ../engine/human.h \
+  ../engine/td.h ../engine/neural.h ../engine/../ui/nn.h \
+  ../engine/../ui/ui.h ttt.h ../engine/board.h ../engine/state.h
+yavalath.o: yavalath.cc ../engine/contest.h ../engine/common.h \
+  ../engine/uct.h ../engine/thread.h ../engine/memory.h ../engine/game.h \
+  ../engine/random.h ../engine/minimax.h ../engine/minimax/strategy.h \
+  ../engine/thread.h ../engine/minimax/minimax.h \
+  ../engine/minimax/negamax.h ../engine/minimax/negascout.h \
+  ../engine/sort.h ../engine/montecarlo.h ../engine/sort.h ../engine/td.h \
+  ../engine/neural.h ../engine/../ui/nn.h ../engine/../ui/ui.h yavalath.h \
+  ../engine/board.h
